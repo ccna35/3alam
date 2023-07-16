@@ -121,7 +121,7 @@ const Home = () => {
 
         <SwiperSlide>
           <video style={classes.smallVideo as any} loop muted autoPlay>
-            <source src="/videos/m1.mp4" type="video/mp4" />
+            <source src="/videos/m2.mp4" type="video/mp4" />
           </video>
 
           <Container maxWidth="xl" sx={classes.flex}>
@@ -142,7 +142,7 @@ const Home = () => {
 
         <SwiperSlide>
           <video style={classes.smallVideo as any} loop muted autoPlay>
-            <source src="/videos/m2.mp4" type="video/mp4" />
+            <source src="/videos/m1.mp4" type="video/mp4" />
           </video>
 
           <Container maxWidth="xl" sx={classes.flex}>
