@@ -41,6 +41,15 @@ const useStyles = () => {
       transform: "translate(-50%, -50%)",
       zIndex: -3,
     },
+    smallVideo: {
+      position: "absolute",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      zIndex: -3,
+      width:"100vw",
+      height:"auto"
+    },
 
     prev: {
       position: "absolute",
@@ -78,7 +87,7 @@ const useStyles = () => {
       backgroundClip: "text",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
-    },
+    }
   };
 
   return classes;

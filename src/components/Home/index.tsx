@@ -120,7 +120,7 @@ const Home = () => {
       >
 
         <SwiperSlide>
-          <video style={classes.video as any} loop muted autoPlay>
+          <video style={classes.smallVideo as any} loop muted autoPlay>
             <source src="/videos/m1.mp4" type="video/mp4" />
           </video>
 
@@ -141,7 +141,7 @@ const Home = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <video style={classes.video as any} loop muted autoPlay>
+          <video style={classes.smallVideo as any} loop muted autoPlay>
             <source src="/videos/m2.mp4" type="video/mp4" />
           </video>
 

@@ -6,18 +6,19 @@ const Loading = () => {
 
   return (
     <Box
-      style={{
+      sx={{
         width: "100vw",
         height: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        bgcolor:"#05040F"
       }}
     >
       <img
         src={Hexa.src}
         alt="Loading animation"
-        style={{ objectFit: "cover", width: "100%", height: "100%" }}
+        style={{ objectFit: "contain",  }}
       />
     </Box>
   );
