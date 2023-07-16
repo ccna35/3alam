@@ -18,45 +18,36 @@ export const ScrollProvider = ({ children }: any) => {
 
   const handleScroll = () => {
     const sections = document.querySelectorAll("section");
-    const snapElement = document.querySelector(".snap");
     let activeSection = "home";
 
-    if (snapElement) {
-      const snapRect = snapElement.getBoundingClientRect();
-      const snapTop = snapRect.top;
-      const scrollOffset = 1; // Adjust this value to control the scroll distance
+    sections.forEach((section) => {
+      const sectionRect = section.getBoundingClientRect();
+      const sectionTop = sectionRect.top;
+      const sectionBottom = sectionRect.bottom;
 
-      sections.forEach((section) => {
-        const sectionRect = section.getBoundingClientRect();
-        const sectionTop = sectionRect.top - snapTop;
-        const sectionBottom = sectionTop + section.offsetHeight;
-
-        if (snapTop >= sectionTop && snapTop < sectionBottom) {
-          // Scroll to the current section
-          window.scrollTo({ top: section.offsetTop, behavior: "smooth" });
-          activeSection = section.id;
-        }
-      });
-    }
+      if (sectionTop <= 0 && sectionBottom > 0) {
+        activeSection = section.id;
+      }
+    });
 
     setActiveSection(activeSection);
   };
 
   useEffect(() => {
-    const span = document.querySelector(".snap");
-    if (span) {
-      span.addEventListener("scroll", handleScroll, { passive: false });
-      return () => {
-        span.removeEventListener("scroll", handleScroll);
-      };
-    }
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
     <ScrollContext.Provider
       value={{ activeSection, setActiveSection: handleSetActiveSection }}
     >
-      {children}
+      <div className="snap">
+        {children}
+      </div>
     </ScrollContext.Provider>
   );
 };
