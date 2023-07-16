@@ -33,7 +33,7 @@ export const ScrollProvider = ({ children }: any) => {
 
         if (snapTop >= sectionTop && snapTop < sectionBottom) {
           // Scroll to the current section
-          section.scrollIntoView({ behavior: "smooth", block: "start" });
+          window.scrollTo({ top: section.offsetTop, behavior: "smooth" });
           activeSection = section.id;
         }
       });
@@ -43,15 +43,13 @@ export const ScrollProvider = ({ children }: any) => {
   };
 
   useEffect(() => {
-    setTimeout(() => {
-      const span = document.querySelector(".snap");
-      if (span) {
-        span.addEventListener("scroll", handleScroll, { passive: true });
-        return () => {
-          span.removeEventListener("scroll", handleScroll);
-        };
-      }
-    }, 1100);
+    const span = document.querySelector(".snap");
+    if (span) {
+      span.addEventListener("scroll", handleScroll, { passive: false });
+      return () => {
+        span.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
 
   return (

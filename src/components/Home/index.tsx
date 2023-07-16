@@ -41,7 +41,26 @@ const Home = () => {
         effect="fade"
         loop
       >
-       
+       <SwiperSlide>
+          <video style={classes.video as any} loop muted autoPlay>
+            <source src="/videos/vid1.mp4" type="video/mp4" />
+          </video>
+
+          <Container maxWidth="xl" sx={classes.flex}>
+            <IconButton
+              onClick={() => swiperRef.current?.slidePrev()}
+              sx={classes.prev}
+            >
+              <PrevIcon sx={classes.icon} />
+            </IconButton>
+            <IconButton
+              onClick={() => swiperRef.current?.slideNext()}
+              sx={classes.next}
+            >
+              <NextIcon sx={classes.icon} />
+            </IconButton>
+          </Container>
+        </SwiperSlide>
       
 
         <SwiperSlide>
