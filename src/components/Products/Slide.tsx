@@ -30,7 +30,6 @@ const Slide = ({
       onClick={() => {
         handleClickOpen();
         setSelectedValue(path);
-        console.log(path);
       }}
     >
       <Box sx={{ width: "100%", height: "100%", position: "relative" }}>

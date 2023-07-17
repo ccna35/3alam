@@ -300,9 +300,10 @@ export default function FullScreenDialog(props: any) {
         sx={{
           p: 2,
           bgcolor: currentSlide.bgcolor,
-          height: { md: "100%" },
-          //   height: "100%",
-          //   height: `${currentSlide === thirdSlide ? "100%" : "fit-content"}`,
+          height: {
+            xs: `${currentSlide === thirdSlide && "100%"}`,
+            sm: "100%",
+          },
           textAlign: "center",
           overflow: { sm: "hidden" },
           position: "relative",
