@@ -96,7 +96,7 @@ const useStyles = () => {
       mt: 2,
       display: "flex",
       alignItems: "center",
-      cursor:"pointer"
+      cursor: "pointer",
     },
     svg: {
       position: "absolute",

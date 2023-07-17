@@ -53,7 +53,7 @@ const useStyles = () => {
       cursor: "pointer",
     },
     content1: {
-      top: "30%",
+      top: { xs: "30%", lg: "25%" },
       left: { xs: "70%", md: "55%", lg: "70%" },
       zIndex: 10,
       position: "absolute",
@@ -66,7 +66,7 @@ const useStyles = () => {
       textAlign: "center",
     },
     content2: {
-      top: "20%",
+      top: "25%",
       left: { xs: "70%", md: "55%", lg: "70%" },
       zIndex: 10,
       position: "absolute",
@@ -79,7 +79,7 @@ const useStyles = () => {
       textAlign: "center",
     },
     content3: {
-      top: "20%",
+      top: { xs: "30%", lg: "20%" },
       left: { xs: "75%", md: "60%", lg: "80%" },
       zIndex: 10,
       position: "absolute",
@@ -92,7 +92,7 @@ const useStyles = () => {
       textAlign: "center",
     },
     content4: {
-      top: "25%",
+      top: { xs: "30%", lg: "20%" },
       left: { xs: "75%", md: "60%", lg: "72%" },
       zIndex: 10,
       position: "absolute",

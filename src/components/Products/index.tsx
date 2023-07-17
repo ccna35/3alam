@@ -122,7 +122,6 @@ const Products = () => {
           handleClickOpen={handleClickOpen}
           setSelectedValue={setSelectedValue}
         />
-        S F
       </Box>
       <Container maxWidth="xl" sx={classes.container}>
         <Typography
