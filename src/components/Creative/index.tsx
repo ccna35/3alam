@@ -18,14 +18,14 @@ const Creative = () => {
       <Container maxWidth="xl">
         <Grid container>
           <Grid item xs={12} lg={6} sx={classes.mobContent}>
-            <GradientText sx={classes.titleMob}>الابتكار والابحاث</GradientText>
+            <GradientText sx={classes.titleMob}>الابتكار والأبحاث</GradientText>
             <Typography color="primary" sx={classes.title2Mob}>
-              نهدف من خلالها الي ادارة وتنفيذ دورة حياة كاملة للمنتج بداية من
-              تحديد وتكوين حل شامل وحتي اطلاقه وتحقيق نجاحه
+              نركز في علم على إعادة تصور طريقة أدائنا للأعمال والبحث عن طرق
+              جديدة وأكثر فاعلية لممارستها، كما نعمل أيضاً على تطوير وتسخير
+              إمكانات التقنيات الناشئة.
             </Typography>
 
-            
-              <IconButton sx={{...classes.flexArrow}}>
+            <IconButton sx={{ ...classes.flexArrow }}>
               <Typography
                 component="p"
                 variant="body1"
@@ -36,9 +36,8 @@ const Creative = () => {
               </Typography>
               <Box sx={classes.arrowCont}>
                 <ArrowLeftIcon />
-                </Box>
-              </IconButton>
-            
+              </Box>
+            </IconButton>
           </Grid>
           <Grid item xs={12} lg={6} ref={ref}>
             <Box sx={classes.bg}>

@@ -50,7 +50,7 @@ const Footer = () => {
             <Typography sx={classes.footerLink}>المعلومات المالية</Typography>
             <Typography sx={classes.footerLink}>الحوكمة</Typography>
             <Typography sx={classes.footerLink}>
-              مركز مساعجة المستثمر
+              مركز مساعدة المستثمر
             </Typography>
           </Grid>
           <Grid
@@ -160,7 +160,7 @@ const Footer = () => {
                   alignItems: "center",
                   width: "100%",
                   flexWrap: "wrap",
-                  pb:1,
+                  pb: 1,
                   py: 1,
                 }}
               >

@@ -11,7 +11,7 @@ const useStyles = () => {
       alignItems: "center",
       position: "relative",
       overflow: "hidden",
-      scrollSnapAlign: "start",
+      scrollSnapAlign: "end",
       scrollBehavior: "smooth",
       height: { xs: "auto", lg: "100dvh" },
     },

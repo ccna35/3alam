@@ -11,9 +11,10 @@ const Slide = ({
   content,
   path2,
   addClass,
+  setSelectedValue,
+  handleClickOpen,
 }: any) => {
   return (
-   
     <Box
       sx={imgClass}
       component={motion.div}
@@ -26,13 +27,18 @@ const Slide = ({
         y: inView ? 0 : 500,
       }}
       transition={{ ease: "linear", duration: 0.35, delay }}
+      onClick={() => {
+        handleClickOpen();
+        setSelectedValue(path);
+        console.log(path);
+      }}
     >
       <Box sx={{ width: "100%", height: "100%", position: "relative" }}>
         <img
           src={path}
           className={addClass}
           alt="slide"
-          style={{ width: "100%", height: "100%"}}
+          style={{ width: "100%", height: "100%" }}
         />
         <Box sx={textClass}>
           <img src={path2} alt="slide" className="icon-img" />
@@ -42,7 +48,6 @@ const Slide = ({
         </Box>
       </Box>
     </Box>
-  
   );
 };
 

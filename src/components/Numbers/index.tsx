@@ -39,7 +39,7 @@ const Numbers = () => {
           >
             <GradientText sx={classes.text}>
               علم <Box component="br" sx={classes.br} />
-              بالارقام
+              بالأرقام
             </GradientText>
           </Grid>
           <Grid item xs={12} lg={6} sx={classes.center} ref={ref}>

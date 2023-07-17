@@ -23,6 +23,7 @@ const useStyles = () => {
       bottom: { xs: "-20%", lg: "-20%" },
       height: { xs: "50%", lg: "100%" },
       zIndex: 5,
+      cursor: "pointer",
     },
     slideImage2: {
       position: "absolute",
@@ -31,6 +32,7 @@ const useStyles = () => {
       bottom: { xs: "0%", lg: "-15%" },
       height: { xs: "50%", lg: "100%" },
       zIndex: 4,
+      cursor: "pointer",
     },
     slideImage3: {
       position: "absolute",
@@ -39,6 +41,7 @@ const useStyles = () => {
       bottom: { xs: "20%", lg: "-17%" },
       height: { xs: "50%", lg: "100%" },
       zIndex: 3,
+      cursor: "pointer",
     },
     slideImage4: {
       position: "absolute",
@@ -47,10 +50,11 @@ const useStyles = () => {
       bottom: { xs: "40%", lg: "-15%" },
       height: { xs: "50%", lg: "100%" },
       zIndex: 2,
+      cursor: "pointer",
     },
     content1: {
       top: "30%",
-      left: { xs:"70%", md: "55%", lg: "70%" },
+      left: { xs: "70%", md: "55%", lg: "70%" },
       zIndex: 10,
       position: "absolute",
       transform: "translateY(-30%)",
@@ -63,7 +67,7 @@ const useStyles = () => {
     },
     content2: {
       top: "20%",
-      left: {xs:"70%", md: "55%", lg: "70%" },
+      left: { xs: "70%", md: "55%", lg: "70%" },
       zIndex: 10,
       position: "absolute",
       transform: "translateY(-20%)",
@@ -76,7 +80,7 @@ const useStyles = () => {
     },
     content3: {
       top: "20%",
-      left: { xs:"75%",md: "60%", lg: "80%" },
+      left: { xs: "75%", md: "60%", lg: "80%" },
       zIndex: 10,
       position: "absolute",
       transform: "translateY(-15%)",
@@ -89,7 +93,7 @@ const useStyles = () => {
     },
     content4: {
       top: "25%",
-      left: { xs:"75%", md: "60%", lg: "72%" },
+      left: { xs: "75%", md: "60%", lg: "72%" },
       zIndex: 10,
       position: "absolute",
       transform: "translateY(-15%)",
@@ -104,7 +108,7 @@ const useStyles = () => {
       position: "absolute",
       width: "100%",
       height: "100%",
-      zIndex: -1,
+      // zIndex: -1,
     },
     container: {
       height: "100%",
