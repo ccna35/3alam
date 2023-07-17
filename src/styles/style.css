@@ -1,125 +1,116 @@
 @font-face {
   font-family: DINNextLTArabic;
-  src:url("/fonts/DINNextLTArabic-Regular-3.ttf");
+  src: url("/fonts/DINNextLTArabic-Regular-3.ttf");
 }
 
 @font-face {
   font-family: DINNextLTArabicBold;
-  src:url("/fonts/DINNextLTArabic-Bold-2.ttf");
+  src: url("/fonts/DINNextLTArabic-Bold-2.ttf");
 }
 
-
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.carousel__slider{
-    height: 100dvh;
-}
-
-body *{
-  font-family: DINNextLTArabic!important;
+.carousel__slider {
+  height: 100dvh;
 }
 
-.bold{
-  font-family: DINNextLTArabicBold!important;
+body * {
+  font-family: DINNextLTArabic !important;
+}
 
+.bold {
+  font-family: DINNextLTArabicBold !important;
 }
 
 @keyframes pathAnimation {
-    from {
-      stroke-dashoffset: 0;
-    }
-    to {
-      stroke-dashoffset: 100%;
-    }
+  from {
+    stroke-dashoffset: 0;
   }
-
- 
-
-
-
-  .swiper-pagination-bullet-active{
-    background: linear-gradient(to left, #00CCFA,#A31C9E )!important;
-
+  to {
+    stroke-dashoffset: 100%;
   }
-  .img0,
-  .img1,
-  .img2 {
-    opacity: 0;
-    transition: opacity 0.5s;
-    position: absolute;
-  }
-  
-  .img0.active,
-  .img1.active,
-  .img2.active {
-    opacity: 1;
-  }
+}
 
+.swiper-pagination-bullet-active {
+  background: linear-gradient(to left, #00ccfa, #a31c9e) !important;
+}
+.img0,
+.img1,
+.img2 {
+  opacity: 0;
+  transition: opacity 0.5s;
+  position: absolute;
+}
 
-  .textAni{
-    /* visibility: hidden; */
-    opacity: 0;
-    animation: up 5s linear 5s infinite forwards;
-  }
-  
-  /* .text0.active,
+.img0.active,
+.img1.active,
+.img2.active {
+  opacity: 1;
+}
+
+.textAni {
+  /* visibility: hidden; */
+  opacity: 0;
+  animation: up 5s linear 5s infinite forwards;
+}
+
+/* .text0.active,
   .text1.active,
   .text2.active {
     visibility: visible;
     opacity: 1;
   } */
 
-  @keyframes up {
-    0% {
-      opacity: 0;
-    }
-    5% {
-      opacity: 1;
-    }
-    95% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+@keyframes up {
+  0% {
+    opacity: 0;
   }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    10% {
-      opacity: 1;
-    }
-    90% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
+  5% {
+    opacity: 1;
   }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-  /* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for Chrome, Safari and Opera */
 .snap::-webkit-scrollbar {
   display: none;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .snap {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-.icon-img{
-  width:120px;
-  height:120px;
+.icon-img {
+  width: 5rem;
+  height: 5rem;
 }
 
 @media (max-width: 400px) {
-  .icon-img{
-    width:50px;
-    height:50px;
+  .icon-img {
+    width: 1rem;
+    height: 1rem;
   }
 }

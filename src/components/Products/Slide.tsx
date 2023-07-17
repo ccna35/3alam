@@ -40,7 +40,13 @@ const Slide = ({
           style={{ width: "100%", height: "100%" }}
         />
         <Box sx={textClass}>
-          <img src={path2} alt="slide" className="icon-img" />
+          <Box component="div" sx={{ width: { xs: "2rem", lg: "4rem" } }}>
+            <img
+              src={path2}
+              alt="slide"
+              // className="icon-img"
+            />
+          </Box>
           <Typography sx={{ fontSize: { xs: 20, lg: 40 } }}>
             {content}
           </Typography>
