@@ -22,7 +22,7 @@ const useStyles = () => {
     slideImage1: {
       position: "absolute",
       width: { xs: "25rem", lg: "50%" },
-      left: { xs: "-14%", lg: "-20%" },
+      left: { xs: "-14%", lg: "-30%" },
       bottom: { xs: "-3%", lg: "-2%" },
       height: { lg: "100%" },
       zIndex: 5,
