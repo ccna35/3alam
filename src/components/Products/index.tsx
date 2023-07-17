@@ -130,6 +130,7 @@ const Products = () => {
           sx={{
             fontWeight: "",
             fontSize: { xs: "2rem", lg: "3rem" },
+            zIndex: 999,
           }}
         >
           منتجات
