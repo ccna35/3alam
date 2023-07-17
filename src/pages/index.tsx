@@ -11,6 +11,7 @@ import Creative from "../components/Creative";
 import Loading from "../components/Loading";
 import { useEffect, useState } from "react";
 import Products from "../components/Products";
+import Hero from "../components/Hero";
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -23,7 +24,8 @@ const HomePage = () => {
 
   return (
     <Layout>
-      <Home />
+      {/* <Home /> */}
+      <Hero />
       <About />
       <Services />
       <Products />
