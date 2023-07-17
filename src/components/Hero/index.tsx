@@ -13,6 +13,7 @@ const Hero = () => {
         background: "url('./videos/gif-image.gif')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPositionX: "center",
         height: "100vh",
       }}
     ></Box>
