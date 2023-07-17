@@ -13,7 +13,9 @@ const useStyles = () => {
       position: "relative",
       overflow: "hidden",
       scrollSnapAlign: "start",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
     },
     title: {
       mt: 4,

@@ -13,7 +13,10 @@ const useStyles = () => {
       overflow: "hidden",
       backgroundColor: theme.palette.common.white,
       scrollSnapAlign: "start",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
+
       height: "100dvh",
     },
     svgCont: {

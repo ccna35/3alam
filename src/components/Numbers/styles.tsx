@@ -9,7 +9,10 @@ const useStyles = () => {
       overflow: { xs: "hidden", lg: "initial" },
       position: "relative",
       scrollSnapAlign: "start",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
+
       height: "100dvh",
     },
 

@@ -8,7 +8,10 @@ const useStyles = () => {
       backgroundColor: theme.palette.common.white,
       position: "relative",
       scrollSnapAlign: "start",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
+
       height: "100dvh",
       overflow: "hidden",
     },

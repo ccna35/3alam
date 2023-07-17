@@ -12,7 +12,9 @@ const useStyles = () => {
       position: "relative",
       overflow: "hidden",
       scrollSnapAlign: "end",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
       height: { xs: "auto", lg: "100dvh" },
     },
     title: {

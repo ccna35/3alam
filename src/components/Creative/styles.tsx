@@ -48,8 +48,10 @@ const useStyles = () => {
     flex: {
       position: "relative",
       backgroundColor: theme.palette.common.white,
-      scrollSnapAlign: "start",
+      scrollSnapAlign: "end",
+
       scrollBehavior: "smooth",
+      // scrollSnapType: "y proximity",
       height: "100dvh",
       overflow: "hidden",
     },
