@@ -79,7 +79,7 @@ const Products = () => {
       <Box sx={classes.overlay}>
         <Slide
           inView={inView}
-          path="/images/download.svg"
+          path="/images/new-product-slides-images/management.svg"
           imgClass={classes.slideImage1}
           textClass={classes.content1}
           delay={1.05}
@@ -91,7 +91,7 @@ const Products = () => {
         />
         <Slide
           inView={inView}
-          path="/images/products2.svg"
+          path="/images/new-product-slides-images/health.svg"
           imgClass={classes.slideImage2}
           textClass={classes.content2}
           delay={0.7}
@@ -102,7 +102,7 @@ const Products = () => {
         />
         <Slide
           inView={inView}
-          path="/images/products3.svg"
+          path="/images/new-product-slides-images/transport.svg"
           imgClass={classes.slideImage3}
           textClass={classes.content3}
           delay={0.35}
@@ -113,7 +113,7 @@ const Products = () => {
         />
         <Slide
           inView={inView}
-          path="/images/products4.svg"
+          path="/images/new-product-slides-images/security.svg"
           imgClass={classes.slideImage4}
           textClass={classes.content4}
           delay={0}
@@ -128,8 +128,8 @@ const Products = () => {
           component="h1"
           variant="h1"
           sx={{
-            fontWeight: "bold",
-            fontSize: { xs: 40, lg: 70 },
+            fontWeight: "",
+            fontSize: { xs: "2rem", lg: "3rem" },
           }}
         >
           منتجات

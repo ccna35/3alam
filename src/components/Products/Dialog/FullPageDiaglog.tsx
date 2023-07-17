@@ -255,11 +255,11 @@ export default function FullScreenDialog(props: any) {
   };
 
   const currentSlide =
-    selectedValue === "/images/products4.svg"
+    selectedValue === "/images/new-product-slides-images/security.svg"
       ? firstSlide
-      : selectedValue === "/images/products3.svg"
+      : selectedValue === "/images/new-product-slides-images/transport.svg"
       ? secondSlide
-      : selectedValue === "/images/products2.svg"
+      : selectedValue === "/images/new-product-slides-images/health.svg"
       ? thirdSlide
       : fourthSlide;
 
