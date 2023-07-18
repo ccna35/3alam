@@ -13,7 +13,7 @@ const useStyles = () => {
       scrollBehavior: "smooth",
       // scrollSnapType: "y proximity",
 
-      height: "100dvh",
+      height: "100vh",
     },
 
     center: {
@@ -23,7 +23,7 @@ const useStyles = () => {
       flexDirection: "column",
     },
     cont: {
-      height: "100dvh",
+      height: "100vh",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",

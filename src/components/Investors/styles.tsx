@@ -5,7 +5,7 @@ const useStyles = () => {
 
   const classes = {
     flex: {
-      minHeight: { xs: "auto", lg: "100dvh" },
+      minHeight: { xs: "auto", lg: "100vh" },
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
@@ -17,7 +17,7 @@ const useStyles = () => {
       scrollBehavior: "smooth",
       // scrollSnapType: "y proximity",
 
-      height: "100dvh",
+      height: "100vh",
     },
     title: {
       "@media (max-width: 1800px)": {

@@ -1,7 +1,6 @@
 import Home from "../components/Home";
 import About from "../components/About";
 import Services from "../components/Services";
-
 import Layout from "../components/layout";
 import Effect from "../components/Effect";
 import Numbers from "../components/Numbers";
@@ -24,8 +23,8 @@ const HomePage = () => {
 
   return (
     <Layout>
-      {/* <Home /> */}
-      <Hero />
+      <Home />
+      {/* <Hero /> */}
       <About />
       <Services />
       <Products />

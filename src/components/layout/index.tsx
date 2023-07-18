@@ -28,7 +28,7 @@ const Layout: React.FC<IProps> = ({ children }) => {
         className="snap"
         sx={{
           scrollSnapType: "y mandatory",
-          height: "100dvh",
+          height: "100vh",
           overflow: "auto",
         }}
       >

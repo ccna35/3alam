@@ -17,7 +17,7 @@ const useStyles = () => {
       scrollBehavior: "smooth",
       // scrollSnapType: "y proximity",
 
-      height: "100dvh",
+      height: "100vh",
     },
     svgCont: {
       position: "absolute",

@@ -11,11 +11,11 @@ const useStyles = () => {
       alignItems: "center",
       position: "relative",
       overflow: "hidden",
-      scrollSnapAlign: "end",
+      scrollSnapAlign: "start",
 
       scrollBehavior: "smooth",
       // scrollSnapType: "y proximity",
-      height: { xs: "auto", lg: "100dvh" },
+      height: { xs: "auto", lg: "100vh" },
     },
     title: {
       fontSize: 28,

@@ -5,7 +5,7 @@ const useStyles = () => {
 
   const classes = {
     flex: {
-      height: "100dvh",
+      height: "100vh",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",

@@ -19,7 +19,7 @@ const useStyles = () => {
     },
     flex: {
       direction: isRTL ? "rtl" : "ltr",
-      minHeight: "100dvh",
+      minHeight: "100vh",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
@@ -28,7 +28,7 @@ const useStyles = () => {
     },
     videoContainer: {
       position: "relative",
-      minHeight: "100dvh",
+      minHeight: "100vh",
       overflow: "hidden",
     },
 
@@ -47,8 +47,8 @@ const useStyles = () => {
       left: "50%",
       transform: "translate(-50%, -50%)",
       zIndex: -3,
-      width:"100vw",
-      height:"auto"
+      width: "100vw",
+      height: "auto",
     },
 
     prev: {
@@ -87,7 +87,7 @@ const useStyles = () => {
       backgroundClip: "text",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
-    }
+    },
   };
 
   return classes;

@@ -19,7 +19,7 @@ const useStyles = () => {
       height: "400px",
     },
     cont: {
-      height: { xs: "350px", lg: "100dvh" },
+      height: { xs: "350px", lg: "100vh" },
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-around",
@@ -39,7 +39,7 @@ const useStyles = () => {
       },
     },
     left: {
-      height: "100dvh",
+      height: "100vh",
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-between",
@@ -52,7 +52,7 @@ const useStyles = () => {
 
       scrollBehavior: "smooth",
       // scrollSnapType: "y proximity",
-      height: "100dvh",
+      height: "100vh",
       overflow: "hidden",
     },
     title: {
